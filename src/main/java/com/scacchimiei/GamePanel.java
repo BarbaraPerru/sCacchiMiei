@@ -1,4 +1,5 @@
 package com.scacchimiei;
+package com.scacchimiei.piece;
 
 
 import java.util.ArrayList;
