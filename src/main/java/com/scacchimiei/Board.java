@@ -3,6 +3,9 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 public class Board {
+
+    // Graphic of chessBoard
+    
     final int MAX_COL = 8;
     final int MAX_ROW = 8;
     public static final int SQUARE_SIZE = 100;
