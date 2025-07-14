@@ -1,6 +1,6 @@
 package com.scacchimiei.piece;
 
-import com.scacchimiei.Piece;
+import com.scacchimiei.GamePanel;
 import com.scacchimiei.Type;
 
 public class Pawn extends Piece{

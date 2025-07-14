@@ -1,4 +1,4 @@
-package com.scacchimiei;
+package com.scacchimiei.piece;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
@@ -6,6 +6,10 @@ import java.io.IOException;
 
 
 import javax.imageio.ImageIO;
+
+import com.scacchimiei.Board;
+import com.scacchimiei.GamePanel;
+import com.scacchimiei.Type;
 
 
 public class Piece {

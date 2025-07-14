@@ -1,5 +1,5 @@
 package com.scacchimiei;
-package com.scacchimiei.piece;
+
 
 
 import java.util.ArrayList;
@@ -12,6 +12,8 @@ import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
 import javax.swing.JPanel;
+
+import com.scacchimiei.piece.*;
 
 public class GamePanel extends JPanel implements Runnable {
     public static final int WIDTH = 1100;
@@ -57,7 +59,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     public void setPieces() {
-        // BIANCHI
+        // white pieces
         pieces.add(new Pawn(WHITE, 0, 6));
         pieces.add(new Pawn(WHITE, 1, 6));
         pieces.add(new Pawn(WHITE, 2, 6));
@@ -75,7 +77,7 @@ public class GamePanel extends JPanel implements Runnable {
         pieces.add(new Bishop(WHITE, 2, 7));
         pieces.add(new Bishop(WHITE, 5, 7));
 
-        // NERI
+        // black pieces
         pieces.add(new Pawn(BLACK, 0, 1));
         pieces.add(new Pawn(BLACK, 1, 1));
         pieces.add(new Pawn(BLACK, 2, 1));

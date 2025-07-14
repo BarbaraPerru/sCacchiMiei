@@ -1,5 +1,7 @@
 package com.scacchimiei.piece;
 
+import com.scacchimiei.GamePanel;
+import com.scacchimiei.Type;
 
 public class King extends Piece {
     public King(int color, int col, int row) {
