@@ -1,6 +1,7 @@
 package com.scacchimiei.piece;
 
-
+import com.scacchimiei.Piece;
+import com.scacchimiei.Type;
 
 public class Pawn extends Piece{
     public Pawn(int color, int col, int row) {
