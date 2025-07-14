@@ -103,7 +103,7 @@ public class GamePanel extends JPanel implements Runnable {
     @Override
     public void run() {
 
-        // GAMELOOP ESTABLISHED
+        // GameLoop Established
         double drawInterval = 1000000000 / FPS;
         double delta = 0;
         long lastTime = System.nanoTime();
@@ -120,7 +120,7 @@ public class GamePanel extends JPanel implements Runnable {
         }
     }
 
-    public void update() {
+    private void update() {
 
         if (promotion) {
             promoting();
