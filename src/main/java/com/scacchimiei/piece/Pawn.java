@@ -1,6 +1,5 @@
 package com.scacchimiei.piece;
 
-package com.chessgame;
 
 
 public class Pawn extends Piece{
